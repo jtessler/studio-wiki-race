@@ -98,7 +98,7 @@ function queryWikiApi(queryParams) {
     origin: '*',
     redirects: true,
   });
-  return $.get('http://en.wikipedia.org/w/api.php', params)
+  return $.get('https://en.wikipedia.org/w/api.php', params)
       .then(function(data) {
         if ('errors' in data) {
           console.error('Wiki API returned errors:', data.errors);
