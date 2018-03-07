@@ -5,6 +5,7 @@ export default class WikiGameApp extends Component {
     // Properties (data) provided by WikiGameHistory.
     var isComplete = this.props.isComplete;
     var titles = this.props.titles;
+    var currentTitle = this.props.currentTitle;
     var targetTitle = this.props.targetTitle;
 
     // Properties (functions) provided by WikiGameHistory.

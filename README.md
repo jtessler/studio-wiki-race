@@ -82,5 +82,6 @@ Also sends the following properties to `WikiGameApp`:
 
 - `this.props.titles`: The list of all visited titles (including the starter
   title)
+- `this.props.currentTitle`: The current title a user is viewing.
 - `this.props.targetTitle`: The title users should eventually reach.
 - `this.props.isComplete`: Is `true` if the game is done!
